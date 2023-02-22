@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Calculadora</title>
+</head>
+<body> 
+
+    <main>
+        <section class="calculadora">
+
+                    <p class="resultado" id="resultado"></p>
+
+                    <button onclick="limpar()">C</button>
+                    <button onclick="apagar()">&#60;</button>
+                    <button onclick="inserir('/')">/</button>
+                    <button onclick="inserir('X')">&#215;</button>
+                    
+                
+                    <button onclick="inserir(7)">7</button>
+                    <button onclick="inserir(8)">8</button>
+                    <button onclick="inserir(9)">9</button>
+                    <button onclick="inserir('+')">&#43;</button>
+                   
+               
+                    <button onclick="inserir(4)">4</button>
+                    <button onclick="inserir(5)">5</button>
+                    <button onclick="inserir(6)">6</button>
+                    <button onclick="inserir('-')">-</button>
+               
+                    <button onclick="inserir(1)">1</button>
+                    <button onclick="inserir(2)">2</button>
+                    <button onclick="inserir(3)">3</button>
+                    <button class="igual" onclick="calcular()">&#61;</button>
+              
+                    <button class="zero" onclick="inserir(0)">0</button>
+                    <button class="ponto" onclick="inserir('.')">&#46;</button>
+                    <button class="virgula" onclick="inserir(',')">&#44;</button>
+            
+        </section>
+    </main>
+    
+</body>
+<script src="assets/script.js"></script>
+</html>
